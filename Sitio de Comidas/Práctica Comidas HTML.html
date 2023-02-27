@@ -1,0 +1,106 @@
+<!-- Iniciación de Página Web con HTML 5-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/Código CSS/Estilos Práctica Comidas.css" rel="stylesheet" type="text/css"/>
+    <title>Restaurante de Comida Rápida</title>
+</head>
+<body>
+    
+<!--Encabezado y Menú de Navegación-->
+<header class="Encabezado">
+    <nav class="Arriba">
+        <figure>
+            <img src="/Imagenes/Logo.png" alt="Logo" width="200"/>
+        </figure>
+    </nav>
+    <nav class="MenúdeNavegación">
+        <li class="Navegacion"><a class="NavegacionA" href="#">Menú Completo</a></li>
+        <li class="Navegacion"><a class="NavegacionA" href="#">Promociones</a></li>
+    </nav>
+</header>
+
+<!--Productos -->
+<hr> 
+<div>
+    <section class="Productos">
+
+        <!--Hamburguesa -->
+        <article class="Hamburguesa">
+            <figure>
+                <img src="/Imagenes/Hamburguesas.png" alt="" width="100" />
+                <figcaption>₡3 000</figcaption>
+            <header>
+                <h2>Hamburguesa</h2>
+            </header>    
+            </figure>
+            <label>Cantidad:  </label>
+            <input type="number"
+                   name="cantidad" min="1" max="5" />
+                <input type="submit" name="Agregar" value="Agregar" />
+        </article>
+        
+        <!--Nachos -->
+        <article class="Nachos">
+            
+            <figure>
+                <img src="/Imagenes/Nachos.png" alt="" width="100" />
+                <figcaption>₡2 500</figcaption>
+            </figure>
+           <header>
+                <h2>Nachos</h2>
+            </header>
+            <label>Cantidad:  </label>
+            <input type="number"
+                   name="cantidad" min="1" max="5" />
+                <input type="submit" name="Agregar" value="Agregar" />
+        </article>
+
+        <!--Pizza -->
+        <article class="Pizza">
+            
+            <figure>
+                <img src="/Imagenes/Pizza.png" alt="" width="100" />
+                <figcaption>₡1 500</figcaption>
+            </figure>
+            <header>
+                <h2>Pizza</h2>
+            </header>
+            <label>Cantidad:  </label>
+            <input type="number"
+                   name="cantidad" min="1" max="5" />
+                <input type="submit" name="Agregar" value="Agregar" />
+        </article>
+
+        <!--Helado -->
+        <article class="Helado">
+            <figure>
+                <img src="/Imagenes/Helado.png" alt="" width="100" />
+                <figcaption>₡1 000</figcaption>
+            </figure>
+            <header>
+                <h2>Helado</h2>
+            </header>
+            <label>Cantidad:  </label>
+            <input type="number"
+                   name="cantidad" min="1" max="5" />
+                <input type="submit" name="Agregar" value="Agregar" />
+        </article>
+    </section>
+
+</div>
+<hr>
+</body>
+
+<!--Pie de Pagina -->
+<footer class="PiedePagina">
+        <h2>Práctica de Ambiente Web</h2>
+        <p>Tel <a href="tel:8050 5080">8050-5080</a></p>
+        <p>Correo <a href="mailto:comidarapida@gmail.com">comidarapida@gmail.com</a></p>
+        
+</footer>
+</html>
+</html>
