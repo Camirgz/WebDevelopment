@@ -1,0 +1,46 @@
+/* Formato de Encabezado*/
+.Encabezado {
+    background-color: rgb(199, 195, 195);
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+    color: rgb(255, 255, 255);
+}
+
+.Arriba {
+    display: flex ;
+    justify-self: center ;
+}
+
+/* Formato de Menú de Navegación con
+ Propiedades de Flex*/      
+.MenúdeNavegación {
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+}
+
+.Navegacion {
+    padding: 40px;
+    justify-self: end;
+    font: 2em monospace;
+}
+
+.NavegacionA {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    justify-content: flex-end;
+}
+
+/*Inicialización de la parte de Productos
+ usando las propiedades de Grid*/
+
+.Productos {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 10% 20% 20% 20% 20%
+}
+
+.PiedePagina {
+    background-color: rgb(156, 156, 156);
+    color: rgb(255, 255, 255);
+}
